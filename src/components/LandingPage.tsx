@@ -729,59 +729,12 @@ function LandingPage() {
 
       <footer className={`${isDarkMode ? 'bg-black border-gold/30' : 'bg-white border-gray-200'} border-t`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-16">
-            <div className="flex-shrink-0">
-              <img
-                src="/526d8635-4b4e-4d01-acd9-44b50bc8c7c9-removebg-preview.png"
-                alt="NAIM Agency Logo"
-                className="h-32 w-auto"
-              />
-            </div>
-
-            <div className="flex flex-col gap-4">
-              <p className={`text-lg ${isDarkMode ? 'text-white' : 'text-charcoal'}`}>
-                <span className="font-semibold text-gold">Naim Agency - Digital Services Division of Naim Investments</span>
-              </p>
-              <div className="space-y-2">
-                <p className={isDarkMode ? 'text-white' : 'text-charcoal'}>
-                  <span className="font-medium">Salmin Mohamed</span>
-                </p>
-                <p className={`text-sm ${isDarkMode ? 'text-white/80' : 'text-gray-600'}`}>
-                  Marketing Director
-                </p>
-                <div className="flex flex-col gap-2 mt-3">
-                  <p className={isDarkMode ? 'text-white' : 'text-charcoal'}>
-                    <span className="text-gold">📞</span>{' '}
-                    <a
-                      href="tel:+254769613396"
-                      className="text-gold hover:underline transition-all"
-                    >
-                      +27 69 613 3396
-                    </a>
-                  </p>
-                  <p className={isDarkMode ? 'text-white' : 'text-charcoal'}>
-                    <span className="text-gold">💬</span>{' '}
-                    <a
-                      href={WHATSAPP_LINK}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gold hover:underline transition-all"
-                    >
-                      +27 69 613 3396
-                    </a>
-                  </p>
-                  <p className={isDarkMode ? 'text-white' : 'text-charcoal'}>
-                    <span className="text-gold">✉️</span>{' '}
-                    <a
-                      href="mailto:marketing@naiminvestments.com"
-                      className="text-gold hover:underline transition-all"
-                    >
-                      marketing@naiminvestments.com
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div className="flex justify-center">
+            <img
+              src="/image_2026-03-28_15-32-12-removebg-preview.png"
+              alt="Naim Agency Contact Information"
+              className="max-w-full h-auto"
+            />
           </div>
 
           <div className={`mt-16 pt-8 border-t ${isDarkMode ? 'border-gold/30' : 'border-gray-200'} text-center`}>
